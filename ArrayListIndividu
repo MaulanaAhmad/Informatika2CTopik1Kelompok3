@@ -1,0 +1,25 @@
+public class ArrayL {
+
+    static ArrayList<atributWarga> individu = new ArrayList<>();
+
+    public static void main(String[] args) {
+        individu.add(new atributWarga("123", "dido", "22 september 1998", "L", "Batu", "Islam", "Pelajar", "ina"));
+        individu.add(new atributWarga("321", "geo", "18 agustus 98", "18 agustus 98", "18 agustus 98", "18 agustus 98", "18 agustus 98", "18 agustus 98"));
+
+        for (atributWarga atrb : individu) {
+            
+
+            System.out.println("NIK : " + atrb.getNik());
+            System.out.println("Nama : " + atrb.getNama());
+            System.out.println("TTL : " + atrb.getTglLahir());
+            System.out.println("Jenis Kelamin : " + atrb.getJenisKelamin());
+            System.out.println("Alamat : " + atrb.getAlamat());
+            System.out.println("Agama : " + atrb.getAgama());
+            System.out.println("Pekerjaan : " + atrb.getPekerjaan());
+            System.out.println("Kewarganegaraan : " + atrb.getKewarganegaraan());
+
+           
+        }
+    }
+
+}
