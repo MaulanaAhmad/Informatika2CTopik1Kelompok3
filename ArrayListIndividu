@@ -1,10 +1,9 @@
 public class ArrayL {
 
-    static ArrayList<atributWarga> individu = new ArrayList<>();
-
-    public static void main(String[] args) {
-        individu.add(new atributWarga("123", "dido", "22 september 1998", "L", "Batu", "Islam", "Pelajar", "ina"));
-        individu.add(new atributWarga("321", "geo", "18 agustus 98", "18 agustus 98", "18 agustus 98", "18 agustus 98", "18 agustus 98", "18 agustus 98"));
+    public void main(String[] args) {
+        ArrayList<atributWarga> individu = new ArrayList<>();
+        individu.add(new atributWarga("123", "dido", "22 september 1998", "L", "Batu", "Islam", "Mahasiswa", "ina"));
+        individu.add(new atributWarga("321", "geo", "18 agustus 98", "L", "Malang", "Islam", "Mahasiswa", "ina"));
 
         for (atributWarga atrb : individu) {
             
