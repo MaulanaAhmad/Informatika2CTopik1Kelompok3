@@ -2,8 +2,8 @@ public class ArrayL {
 
     public void main(String[] args) {
         ArrayList<atributWarga> individu = new ArrayList<>();
-        individu.add(new atributWarga("123", "dido", "22 september 1998", "L", "Batu", "Islam", "Mahasiswa", "ina"));
-        individu.add(new atributWarga("321", "geo", "18 agustus 98", "L", "Malang", "Islam", "Mahasiswa", "ina"));
+        individu.add(new atributWarga("123", "dido", "22 september 1998", "L", "O", "Batu", "Islam", "Mahasiswa", "WNI"));
+        individu.add(new atributWarga("321", "geo", "18 agustus 98", "L","B", "Malang", "Islam", "Mahasiswa", "WNI"));
 
         for (atributWarga atrb : individu) {
             
@@ -12,6 +12,7 @@ public class ArrayL {
             System.out.println("Nama : " + atrb.getNama());
             System.out.println("TTL : " + atrb.getTglLahir());
             System.out.println("Jenis Kelamin : " + atrb.getJenisKelamin());
+            System.out.println("Gol. Darah  : " + atrb.getGolDarah());
             System.out.println("Alamat : " + atrb.getAlamat());
             System.out.println("Agama : " + atrb.getAgama());
             System.out.println("Pekerjaan : " + atrb.getPekerjaan());
