@@ -3,17 +3,19 @@ public class atributWarga {
     private String nama;
     private String tglLahir;
     private String jenisKelamin;
+    private String goldarah;
     private String alamat;
     private String agama;
     private String pekerjaan;
     private String kewarganegaraan;
     public atributWarga(String nikWarga, String namaWarga, String tglLahirWarga, 
-            String jenisKelaminWarga, String alamatWarga, String agamaWarga, 
+            String jenisKelaminWarga, String goldarah, String alamatWarga, String agamaWarga, 
             String pekerjaanWarga, String kewarganegaraanWarga){
         setNik(nikWarga);
         setNama(namaWarga);
         setTglLahir(tglLahirWarga);
         setJenisKelamin(jenisKelaminWarga);
+        setGolDarah(goldarah);
         setAlamat(alamatWarga);
         setAgama(agamaWarga);
         setPekerjaan(pekerjaanWarga);
@@ -50,6 +52,14 @@ public class atributWarga {
 
     public void setJenisKelamin(String jenisKelamin) {
         this.jenisKelamin = jenisKelamin;
+    }
+    
+    public String getGolDarah(){
+        return goldarah;
+    }
+    
+    public void setGolDarah(){
+        this.goldarah = goldarah;
     }
 
     public String getAlamat() {
