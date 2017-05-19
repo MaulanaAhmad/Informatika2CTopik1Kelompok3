@@ -4,9 +4,11 @@ public class ArrayL {
 
     public void main(String[] args) {
         ArrayList<atributWarga> individu = new ArrayList<>();
+        ArrayList<Circle> circles = new ArrayList<>();
         individu.add(new atributWarga("123", "dido", "22 september 1998", "L", "O", "Batu", "Islam", "Mahasiswa", "WNI"));
         individu.add(new atributWarga("321", "geo", "18 agustus 98", "L","B", "Malang", "Islam", "Mahasiswa", "WNI"));
 
+        HashMap<String, Circle> desa = new HashMap<>();
         for (atributWarga atrb : individu) {
             
 
